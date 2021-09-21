@@ -9,6 +9,5 @@ module.exports = {
   rootDir: '.',
   transform: {
     '^.+\\.(j|t)sx?$': 'babel-jest',
-  },
-  transformIgnorePatterns: ['/node_modules/(?!(tss-react)/).*/'],
+  }
 };
